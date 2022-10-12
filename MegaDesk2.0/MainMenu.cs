@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MegaDesk_Towne
+namespace MegaDesk_2
 {
     public partial class MainMenu : Form
     {

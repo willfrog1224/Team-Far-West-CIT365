@@ -1,4 +1,4 @@
-﻿namespace MegaDesk_Towne
+﻿namespace MegaDesk_2
 {
     partial class MainMenu
     {
