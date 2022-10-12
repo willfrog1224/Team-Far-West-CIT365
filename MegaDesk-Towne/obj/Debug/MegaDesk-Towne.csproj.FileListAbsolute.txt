@@ -13,3 +13,21 @@ C:\Users\nnyle\OneDrive\Documents\CIT365\Repo\MegaDesk-Towne\obj\Debug\MegaDesk_
 C:\Users\nnyle\OneDrive\Documents\CIT365\Repo\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.DisplayQuote.resources
 C:\Users\nnyle\OneDrive\Documents\CIT365\Repo\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.SearchQuotes.resources
 C:\Users\nnyle\OneDrive\Documents\CIT365\Repo\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.ViewAllQuotes.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.csproj.AssemblyReference.cache
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.csproj.SuggestedBindingRedirects.cache
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.AddQuote.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.DisplayQuote.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.MainMenu.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.Properties.Resources.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.SearchQuotes.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk_Towne.ViewAllQuotes.resources
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.csproj.GenerateResource.cache
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.csproj.CoreCompileInputs.cache
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.exe
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.pdb
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\bin\Debug\MegaDesk-Towne.exe.config
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\bin\Debug\MegaDesk-Towne.exe
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\bin\Debug\MegaDesk-Towne.pdb
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\bin\Debug\Newtonsoft.Json.xml
+C:\Users\willf\OneDrive\Desktop\Team Far West\MegaDesk-Towne\obj\Debug\MegaDesk-Towne.csproj.CopyComplete

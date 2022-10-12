@@ -39,7 +39,7 @@ namespace MegaDesk_Towne
             {
                 DeskQuote deskQuote = new DeskQuote(ProductionDays, CustomerName, DeskWidth, Depth, Drawers, DeskMaterial);
                 DisplayQuote displayQuoteForm = new DisplayQuote(mainMenu1, deskQuote);
-                var list = JsonConvert.DeserializeObject<ListBox<(DeskQuote)>>("qoutes.json");
+               // var list = JsonConvert.DeserializeObject<ListBox<(DeskQuote)>>("qoutes.json");
                 displayQuoteForm.Show();
                 Hide();
             }
