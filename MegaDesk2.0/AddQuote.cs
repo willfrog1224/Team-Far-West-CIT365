@@ -12,7 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using ComboBox = System.Windows.Forms.ComboBox;
 using TextBox = System.Windows.Forms.TextBox;
 
-namespace MegaDesk_Towne
+namespace MegaDesk_2
 {
     public partial class AddQuote : Form
     {
@@ -39,7 +39,7 @@ namespace MegaDesk_Towne
             {
                 DeskQuote deskQuote = new DeskQuote(ProductionDays, CustomerName, DeskWidth, Depth, Drawers, DeskMaterial);
                 DisplayQuote displayQuoteForm = new DisplayQuote(mainMenu1, deskQuote);
-                //var list = JsonConvert.DeserializeObject<ListBox<(DeskQuote)>>("qoutes.json");
+                //var list = JsonConvert.DeserializeObject<ListBox<(DeskQuote)>>("quotes.json");
                 displayQuoteForm.Show();
                 Hide();
             }

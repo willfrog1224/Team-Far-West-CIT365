@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace MegaDesk_Towne
+namespace MegaDesk_2
 {
     public partial class DisplayQuote : Form
     {
