@@ -17,13 +17,12 @@ namespace MegaDesk_2
     public partial class AddQuote : Form
     {
         private MainMenu mainMenu1;
-        public static string CustomerName;
-        public static int DeskWidth;
-        public static int Depth;
-        public static int Drawers;
-        public static string DeskMaterial
-            ;
-        public static int ProductionDays = 14;
+        public string CustomerName;
+        public int DeskWidth;
+        public int Depth;
+        public int Drawers;
+        public string DeskMaterial;
+        public int ProductionDays = 14;
         
 
         public AddQuote(MainMenu mainMenu)
@@ -39,7 +38,10 @@ namespace MegaDesk_2
             {
                 DeskQuote deskQuote = new DeskQuote(ProductionDays, CustomerName, DeskWidth, Depth, Drawers, DeskMaterial);
                 DisplayQuote displayQuoteForm = new DisplayQuote(mainMenu1, deskQuote);
-                //var list = JsonConvert.DeserializeObject<ListBox<(DeskQuote)>>("quotes.json");
+                //Add Quote to quotes file using FileService
+                FileService fileService = new FileService();
+                fileService.AddQuoteToFile(deskQuote);
+
                 displayQuoteForm.Show();
                 Hide();
             }
@@ -319,7 +321,7 @@ namespace MegaDesk_2
             errorProvider1.SetIconAlignment(DaysComboBox, ErrorIconAlignment.MiddleRight);
         }
 
-        
+   
     }
 }
 
