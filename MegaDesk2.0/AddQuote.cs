@@ -21,8 +21,7 @@ namespace MegaDesk_2
         public static int DeskWidth;
         public static int Depth;
         public static int Drawers;
-        public static string DeskMaterial
-            ;
+        public static string DeskMaterial;
         public static int ProductionDays = 14;
         
 
