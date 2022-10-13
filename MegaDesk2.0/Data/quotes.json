@@ -1,10 +1,31 @@
-{
-  "exclude": [
-    "**/bin",
-    "**/bower_components",
-    "**/jspm_packages",
-    "**/node_modules",
-    "**/obj",
-    "**/platforms"
-  ]
-}
+//This file is for testing purposes to hold example quotes. 
+//This is NOT the location where the Deskquotes are stored when the program runs. 
+[
+  {
+    "Width": 34,
+    "Depth": 30,
+    "Drawers": 1,
+    "DesktopMaterial": "Laminate",
+    "ProductionDays": 14,
+    "CustomerName": "Jack Sparrow",
+    "QuoteDate": "10/01/2022"
+  },
+  {
+    "Width": 25,
+    "Depth": 34,
+    "Drawers": 4,
+    "DesktopMaterial": "Laminate",
+    "ProductionDays": 3,
+    "CustomerName": "Tony Stark",
+    "QuoteDate": "02/15/2022"
+  },
+  {
+    "Width": 45,
+    "Depth": 40,
+    "Drawers": 2,
+    "DesktopMaterial": "Rosewood",
+    "ProductionDays": 5,
+    "CustomerName": "Davy Jones",
+    "QuoteDate": "12/13/2021"
+  }
+]

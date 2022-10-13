@@ -23,13 +23,13 @@ namespace MegaDesk_2
             priceText.Text = "$" + Convert.ToString(Price);
             dateText.Text = deskQuote.QuoteDate;
             nameText.Text = deskQuote.CustomerName;
-            widthText.Text = Convert.ToString(deskQuote.GetWidth() ) + " in.";
-            depthText.Text = Convert.ToString(deskQuote.GetDepth()) + " in.";
-            drawersText.Text = Convert.ToString(deskQuote.GetDrawers());
-            materialText.Text = deskQuote.GetDesktopMaterial();
-            if (AddQuote.ProductionDays != 14)
+            widthText.Text = Convert.ToString(deskQuote.Width ) + " in.";
+            depthText.Text = Convert.ToString(deskQuote.Depth) + " in.";
+            drawersText.Text = Convert.ToString(deskQuote.Drawers);
+            materialText.Text = deskQuote.DesktopMaterial;
+            if (deskQuote.ProductionDays != 14)
             {
-                ProductionDaysText.Text = Convert.ToString(AddQuote.ProductionDays) + " days" ;
+                ProductionDaysText.Text = Convert.ToString(deskQuote.ProductionDays) + " days" ;
                 ProductionDaysText.Visible = true;
                 ProductionDaysLabel.Visible = true;
             }

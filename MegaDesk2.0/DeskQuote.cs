@@ -3,57 +3,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace MegaDesk_2
 {
     public class DeskQuote
     {
-        
-        public string CustomerName;
-        public string QuoteDate;
-        private static Desk desk;
-        public int ProductionDays;
+        private string _customerName;
+        private string _quoteDate;
+        private int _productionDays;
+        private Desk _desk;
 
         public DeskQuote(int productionDays, string customerName, int width, int depth, int drawers, string desktopMaterial)
         {
-            desk = new Desk(width, depth,  drawers, desktopMaterial);
-            ProductionDays = productionDays;
-            CustomerName = customerName;
+            _desk = new Desk(width, depth,  drawers, desktopMaterial);
+            _customerName = customerName;
             DateTime currentDate = DateTime.Today;
-            QuoteDate = currentDate.ToString("MM/dd/yyyy");
+            _quoteDate = currentDate.ToString("MM/dd/yyyy");
+            _productionDays = productionDays;
+            Width = _desk.Width;
+            Depth = _desk.Depth;
+            Drawers = _desk.Drawers;
+            DesktopMaterial = _desk.DesktopMaterial;
         }
 
-        public int GetWidth()
-        {
-            return desk.Width;
-        }
+        public int Width { get => _desk.Width; set => _desk.Width = value; }
+        public int Depth { get => _desk.Depth; set => _desk.Depth = value; }
+        public int Drawers{ get => _desk.Drawers; set => _desk.Drawers = value; }
+        public string DesktopMaterial { get => _desk.DesktopMaterial; set => _desk.DesktopMaterial = value; }
+        public int ProductionDays { get => _productionDays;}
+        public string CustomerName { get => _customerName; }
+        public string QuoteDate { get => _quoteDate; }
 
-        public int GetDepth()
-        {
-            return desk.Depth;
-        }
 
-        public int GetDrawers()
-        {
-            return desk.Drawers;
-        }
-
-        public string GetDesktopMaterial()
-        {
-            return desk.DesktopMaterial;
-        }
+        
         public double CalculatePrice()
         { 
-            int surfaceArea = GetWidth() * GetDepth();
+            int surfaceArea = _desk.Width * _desk.Depth;
             int addedPrice = 0;
             if (surfaceArea > 1000)
             {
                 addedPrice = surfaceArea - 1000;
             }
 
-            int drawerTotal = desk.Drawers * 50;
+            int drawerTotal = _desk.Drawers * 50;
             int materialCost = 0;
-            switch (desk.DesktopMaterial)
+            switch (_desk.DesktopMaterial)
             {
                 case "Oak":
                     materialCost = 200;

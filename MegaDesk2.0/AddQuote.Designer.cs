@@ -53,7 +53,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(32, 54);
+            this.nameLabel.Location = new System.Drawing.Point(28, 43);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(194, 29);
             this.nameLabel.TabIndex = 0;
@@ -63,10 +63,9 @@
             // CustomerNameInput
             // 
             this.CustomerNameInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerNameInput.Location = new System.Drawing.Point(276, 54);
-            this.CustomerNameInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CustomerNameInput.Location = new System.Drawing.Point(245, 43);
             this.CustomerNameInput.Name = "CustomerNameInput";
-            this.CustomerNameInput.Size = new System.Drawing.Size(349, 30);
+            this.CustomerNameInput.Size = new System.Drawing.Size(311, 30);
             this.CustomerNameInput.TabIndex = 1;
             this.CustomerNameInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerNameInput_KeyPress);
             this.CustomerNameInput.Validating += new System.ComponentModel.CancelEventHandler(this.CustomerNameInput_Validating);
@@ -79,10 +78,9 @@
             this.SubmitButton.FlatAppearance.BorderSize = 15;
             this.SubmitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmitButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SubmitButton.Location = new System.Drawing.Point(638, 424);
-            this.SubmitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SubmitButton.Location = new System.Drawing.Point(567, 339);
             this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(202, 69);
+            this.SubmitButton.Size = new System.Drawing.Size(180, 55);
             this.SubmitButton.TabIndex = 2;
             this.SubmitButton.Text = "Submit";
             this.SubmitButton.UseVisualStyleBackColor = false;
@@ -92,7 +90,7 @@
             // 
             this.widthLabel.AutoSize = true;
             this.widthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widthLabel.Location = new System.Drawing.Point(36, 214);
+            this.widthLabel.Location = new System.Drawing.Point(32, 171);
             this.widthLabel.Name = "widthLabel";
             this.widthLabel.Size = new System.Drawing.Size(80, 29);
             this.widthLabel.TabIndex = 3;
@@ -103,7 +101,7 @@
             // 
             this.depthLabel.AutoSize = true;
             this.depthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depthLabel.Location = new System.Drawing.Point(36, 279);
+            this.depthLabel.Location = new System.Drawing.Point(32, 223);
             this.depthLabel.Name = "depthLabel";
             this.depthLabel.Size = new System.Drawing.Size(83, 29);
             this.depthLabel.TabIndex = 4;
@@ -114,7 +112,7 @@
             // 
             this.drawerNumberLabel.AutoSize = true;
             this.drawerNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.drawerNumberLabel.Location = new System.Drawing.Point(313, 214);
+            this.drawerNumberLabel.Location = new System.Drawing.Point(278, 171);
             this.drawerNumberLabel.Name = "drawerNumberLabel";
             this.drawerNumberLabel.Size = new System.Drawing.Size(228, 29);
             this.drawerNumberLabel.TabIndex = 7;
@@ -125,7 +123,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(30, 134);
+            this.label3.Location = new System.Drawing.Point(27, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 36);
             this.label3.TabIndex = 8;
@@ -145,10 +143,9 @@
             "5",
             "6",
             "7"});
-            this.ComboBoxDrawers.Location = new System.Drawing.Point(576, 214);
-            this.ComboBoxDrawers.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ComboBoxDrawers.Location = new System.Drawing.Point(512, 171);
             this.ComboBoxDrawers.Name = "ComboBoxDrawers";
-            this.ComboBoxDrawers.Size = new System.Drawing.Size(101, 33);
+            this.ComboBoxDrawers.Size = new System.Drawing.Size(90, 33);
             this.ComboBoxDrawers.TabIndex = 9;
             this.ComboBoxDrawers.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ComboBoxDrawers_KeyPress);
             this.ComboBoxDrawers.Validating += new System.ComponentModel.CancelEventHandler(this.ComboBoxDrawers_Validating);
@@ -157,7 +154,7 @@
             // 
             this.desktopMaterialLabel.AutoSize = true;
             this.desktopMaterialLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.desktopMaterialLabel.Location = new System.Drawing.Point(313, 282);
+            this.desktopMaterialLabel.Location = new System.Drawing.Point(278, 226);
             this.desktopMaterialLabel.Name = "desktopMaterialLabel";
             this.desktopMaterialLabel.Size = new System.Drawing.Size(200, 29);
             this.desktopMaterialLabel.TabIndex = 10;
@@ -167,10 +164,9 @@
             // DeskWidthInput
             // 
             this.DeskWidthInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeskWidthInput.Location = new System.Drawing.Point(133, 212);
-            this.DeskWidthInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DeskWidthInput.Location = new System.Drawing.Point(118, 170);
             this.DeskWidthInput.Name = "DeskWidthInput";
-            this.DeskWidthInput.Size = new System.Drawing.Size(105, 30);
+            this.DeskWidthInput.Size = new System.Drawing.Size(94, 30);
             this.DeskWidthInput.TabIndex = 11;
             this.DeskWidthInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DeskWidthInput_KeyPress);
             this.DeskWidthInput.Validating += new System.ComponentModel.CancelEventHandler(this.DeskWidthInput_Validating);
@@ -178,10 +174,9 @@
             // DepthInput
             // 
             this.DepthInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DepthInput.Location = new System.Drawing.Point(133, 279);
-            this.DepthInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DepthInput.Location = new System.Drawing.Point(118, 223);
             this.DepthInput.Name = "DepthInput";
-            this.DepthInput.Size = new System.Drawing.Size(105, 30);
+            this.DepthInput.Size = new System.Drawing.Size(94, 30);
             this.DepthInput.TabIndex = 12;
             this.DepthInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DepthInput_KeyPress);
             this.DepthInput.Validating += new System.ComponentModel.CancelEventHandler(this.DepthInput_Validating);
@@ -190,10 +185,9 @@
             // 
             this.ComboBoxMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxMaterials.FormattingEnabled = true;
-            this.ComboBoxMaterials.Location = new System.Drawing.Point(544, 282);
-            this.ComboBoxMaterials.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ComboBoxMaterials.Location = new System.Drawing.Point(484, 226);
             this.ComboBoxMaterials.Name = "ComboBoxMaterials";
-            this.ComboBoxMaterials.Size = new System.Drawing.Size(257, 33);
+            this.ComboBoxMaterials.Size = new System.Drawing.Size(229, 33);
             this.ComboBoxMaterials.TabIndex = 13;
             this.ComboBoxMaterials.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ComboBoxMaterials_KeyPress);
             this.ComboBoxMaterials.Validating += new System.ComponentModel.CancelEventHandler(this.ComboBoxMaterials_Validating);
@@ -202,8 +196,7 @@
             // 
             this.CheckBox1.AutoSize = true;
             this.CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckBox1.Location = new System.Drawing.Point(42, 360);
-            this.CheckBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckBox1.Location = new System.Drawing.Point(37, 288);
             this.CheckBox1.Name = "CheckBox1";
             this.CheckBox1.Size = new System.Drawing.Size(175, 33);
             this.CheckBox1.TabIndex = 15;
@@ -215,7 +208,7 @@
             // 
             this.rushOrderDaysLabel.AutoSize = true;
             this.rushOrderDaysLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rushOrderDaysLabel.Location = new System.Drawing.Point(36, 424);
+            this.rushOrderDaysLabel.Location = new System.Drawing.Point(32, 339);
             this.rushOrderDaysLabel.Name = "rushOrderDaysLabel";
             this.rushOrderDaysLabel.Size = new System.Drawing.Size(72, 29);
             this.rushOrderDaysLabel.TabIndex = 16;
@@ -231,10 +224,9 @@
             "3",
             "5",
             "7"});
-            this.DaysComboBox.Location = new System.Drawing.Point(133, 424);
-            this.DaysComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DaysComboBox.Location = new System.Drawing.Point(118, 339);
             this.DaysComboBox.Name = "DaysComboBox";
-            this.DaysComboBox.Size = new System.Drawing.Size(101, 33);
+            this.DaysComboBox.Size = new System.Drawing.Size(90, 33);
             this.DaysComboBox.TabIndex = 17;
             this.DaysComboBox.Visible = false;
             this.DaysComboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DaysComboBox_KeyPress);
@@ -245,10 +237,9 @@
             this.MenuButton.AutoSize = true;
             this.MenuButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.MenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuButton.Location = new System.Drawing.Point(367, 424);
-            this.MenuButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MenuButton.Location = new System.Drawing.Point(326, 339);
             this.MenuButton.Name = "MenuButton";
-            this.MenuButton.Size = new System.Drawing.Size(202, 69);
+            this.MenuButton.Size = new System.Drawing.Size(180, 55);
             this.MenuButton.TabIndex = 18;
             this.MenuButton.Text = "Main Menu";
             this.MenuButton.UseVisualStyleBackColor = true;
@@ -260,11 +251,11 @@
             // 
             // AddQuote
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(898, 534);
+            this.ClientSize = new System.Drawing.Size(798, 427);
             this.Controls.Add(this.MenuButton);
             this.Controls.Add(this.DaysComboBox);
             this.Controls.Add(this.rushOrderDaysLabel);
@@ -281,7 +272,6 @@
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.CustomerNameInput);
             this.Controls.Add(this.nameLabel);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddQuote";
             this.Text = "Add Quote";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddQuote_FormClosing);
