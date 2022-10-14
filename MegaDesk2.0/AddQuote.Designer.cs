@@ -183,6 +183,8 @@
             // 
             // ComboBoxMaterials
             // 
+            this.ComboBoxMaterials.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.ComboBoxMaterials.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ComboBoxMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxMaterials.FormattingEnabled = true;
             this.ComboBoxMaterials.Location = new System.Drawing.Point(484, 226);
