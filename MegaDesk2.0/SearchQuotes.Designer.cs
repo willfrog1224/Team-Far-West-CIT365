@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.menuButton = new System.Windows.Forms.Button();
-            this.ComboBoxMaterials = new System.Windows.Forms.ComboBox();
+            this.ComboBoxMaterialsSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.searchResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // menuButton
@@ -48,14 +49,14 @@
             this.menuButton.UseVisualStyleBackColor = true;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
-            // ComboBoxMaterials
+            // ComboBoxMaterialsSearch
             // 
-            this.ComboBoxMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComboBoxMaterials.FormattingEnabled = true;
-            this.ComboBoxMaterials.Location = new System.Drawing.Point(218, 35);
-            this.ComboBoxMaterials.Name = "ComboBoxMaterials";
-            this.ComboBoxMaterials.Size = new System.Drawing.Size(121, 28);
-            this.ComboBoxMaterials.TabIndex = 20;
+            this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBoxMaterialsSearch.FormattingEnabled = true;
+            this.ComboBoxMaterialsSearch.Location = new System.Drawing.Point(218, 35);
+            this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
+            this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(121, 28);
+            this.ComboBoxMaterialsSearch.TabIndex = 20;
             // 
             // label1
             // 
@@ -79,14 +80,24 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // searchResult
+            // 
+            this.searchResult.AutoSize = true;
+            this.searchResult.Location = new System.Drawing.Point(44, 102);
+            this.searchResult.Name = "searchResult";
+            this.searchResult.Size = new System.Drawing.Size(35, 13);
+            this.searchResult.TabIndex = 23;
+            this.searchResult.Text = "label2";
+            // 
             // SearchQuotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.searchResult);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ComboBoxMaterials);
+            this.Controls.Add(this.ComboBoxMaterialsSearch);
             this.Controls.Add(this.menuButton);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SearchQuotes";
@@ -100,8 +111,9 @@
         #endregion
 
         private System.Windows.Forms.Button menuButton;
-        private System.Windows.Forms.ComboBox ComboBoxMaterials;
+        private System.Windows.Forms.ComboBox ComboBoxMaterialsSearch;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label searchResult;
     }
 }

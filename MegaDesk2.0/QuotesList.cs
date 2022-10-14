@@ -10,6 +10,8 @@ namespace MegaDesk_2
     {
         private List<DeskQuote> _deskQuotes;
         public List<DeskQuote> DeskQuotes { get => _deskQuotes; set => _deskQuotes = value; }
+        public object DesktopMaterial { get; internal set; }
+
         public QuotesList()
         {
             _deskQuotes = new List<DeskQuote>();
