@@ -32,7 +32,7 @@
             this.ComboBoxMaterialsSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.searchResult = new System.Windows.Forms.Label();
+            //this.searchResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // menuButton
@@ -78,23 +78,22 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // searchResult
             // 
-            this.searchResult.AutoSize = true;
-            this.searchResult.Location = new System.Drawing.Point(44, 102);
-            this.searchResult.Name = "searchResult";
-            this.searchResult.Size = new System.Drawing.Size(35, 13);
-            this.searchResult.TabIndex = 23;
-            this.searchResult.Text = "label2";
+            //this.searchResult.AutoSize = true;
+            //this.searchResult.Location = new System.Drawing.Point(44, 102);
+            //this.searchResult.Name = "searchResult";
+            //this.searchResult.Size = new System.Drawing.Size(35, 13);
+            //this.searchResult.TabIndex = 23;
+            //this.searchResult.Text = "label2";
             // 
             // SearchQuotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.searchResult);
+            //this.Controls.Add(this.searchResult);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ComboBoxMaterialsSearch);
@@ -114,6 +113,6 @@
         private System.Windows.Forms.ComboBox ComboBoxMaterialsSearch;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label searchResult;
+        //private System.Windows.Forms.Label searchResult;
     }
 }
