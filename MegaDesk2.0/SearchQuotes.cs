@@ -35,7 +35,6 @@ namespace MegaDesk_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             FileService fileService = new FileService();
             var material = ComboBoxMaterialsSearch.Text;
             DeskQuote deskQuote = fileService.ReadQuotesAndLoopThrough(material);
@@ -46,11 +45,11 @@ namespace MegaDesk_2
                 label2.Text = "$" + Convert.ToString(deskQuote.CalculatePrice());
                 nameText.Text = deskQuote.CustomerName;
                 dateText.Text = deskQuote.QuoteDate;
-                widthText.Text = Convert.ToString(deskQuote.Width);
-                depthText.Text = Convert.ToString(deskQuote.Depth);
+                widthText.Text = Convert.ToString(deskQuote.Width) + " in.";
+                depthText.Text = Convert.ToString(deskQuote.Depth) + " in.";
                 materialText.Text = deskQuote.DesktopMaterial;
                 drawersText.Text = Convert.ToString(deskQuote.Drawers);
-                ProductionDaysText.Text = Convert.ToString(deskQuote.ProductionDays);
+                ProductionDaysText.Text = Convert.ToString(deskQuote.ProductionDays) + " days";
             }
             else
             {
