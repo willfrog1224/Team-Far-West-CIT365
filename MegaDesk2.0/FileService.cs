@@ -84,7 +84,7 @@ namespace MegaDesk_2
         {
             ReadFromFile();
             List<DeskQuote> quotes = _quotesList.DeskQuotes;
-            string result = "";
+            //string result = "";
             for (int i = 0; i < quotes.Count; i++)
             {
                 if (quotes[i].DesktopMaterial == searchMaterial)

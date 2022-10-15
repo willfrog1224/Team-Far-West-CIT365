@@ -117,23 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="fileServiceBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>580, 17</value>
-  </metadata>
-  <metadata name="fileServiceBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="fileServiceBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>202, 17</value>
-  </metadata>
-  <metadata name="quotesListBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>394, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfwAAAH8CAYAAAA0Uh0TAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAADS1JREFUeF7t1bFJBQAUBDD330kQEQsrsXAdXeCK+5WcL0VmyNP359cPAPC/CR8A
+        DQAACw0B7QfALAAADS1JREFUeF7t1bFJBQAUBDD330kQEQsrsXAdXeCK+5WcL0VmyNP359cPAPC/CR8A
         DhA+ABwgfAA4QPgAcIDwAeAA4QPAAcIHgAOEDwAHCB8ADhA+ABwgfAA4QPgAcIDwAeAA4QPAAcIHgAOE
         DwAHCB8ADhA+ABwgfAA4QPgAcMDD4b8/vwAAfyTd3BA+AAxJNzeEDwBD0s0N4QPAkHRzQ/gAMCTd3BA+
         AAxJNzeEDwBD0s0N4QPAkHRzQ/gAMCTd3BA+AAxJNzeEDwBD0s0N4QPAkHRzQ/gAMCTd3BA+AAxJNzeE
