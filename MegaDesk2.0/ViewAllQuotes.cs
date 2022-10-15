@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,8 +43,29 @@ namespace MegaDesk_2
             FileService fileService = new FileService();
             //fileService.ReadFromFile();
             dataGridView.DataSource = fileService.Quoteslist;
+            
         }
 
+     /*   public DataTable jsonDataDiplay()
+        {
+            FileService fileService = new FileService();
+            string json = fileService.ReadFromFile();
+            dynamic table = JsonConvert.DeserializeObject(json);
+            DataTable newTable = new DataTable();
+            newTable.Columns.Add("Width", typeof(string));
+            newTable.Columns.Add("Depth", typeof(string));
+            newTable.Columns.Add("Drawers", typeof(string));
+            newTable.Columns.Add("DesktopMaterial", typeof(string));
+            newTable.Columns.Add("ProductionDays", typeof(string));
+            newTable.Columns.Add("CustomerName", typeof(string));
+            newTable.Columns.Add("QuoteDate", typeof(string));
 
+            foreach (var row in table.value.data)
+            {
+                newTable.Rows.Add(row.Width, row.Depth, row.Drawers, row.DesktopMaterial, row.ProductionDays, row.CustomerName, row.QuoteDate);
+            }
+            return newTable;
+        }*/
+        
     }
 }

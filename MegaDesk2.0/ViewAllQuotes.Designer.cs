@@ -33,15 +33,9 @@
             this.menuButton = new System.Windows.Forms.Button();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.fileServiceBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.fileServiceBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.quotesListBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.fileServiceBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.quoteslistDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quotesListBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuButton
@@ -65,28 +59,16 @@
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.quoteslistDataGridViewTextBoxColumn});
-            this.dataGridView.DataSource = this.fileServiceBindingSource2;
-            this.dataGridView.Location = new System.Drawing.Point(12, 41);
+            this.dataGridView.DataSource = this.fileServiceBindingSource;
+            this.dataGridView.Location = new System.Drawing.Point(29, 46);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(669, 351);
+            this.dataGridView.Size = new System.Drawing.Size(629, 346);
             this.dataGridView.TabIndex = 21;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // fileServiceBindingSource
             // 
             this.fileServiceBindingSource.DataSource = typeof(MegaDesk_2.FileService);
-            // 
-            // fileServiceBindingSource1
-            // 
-            this.fileServiceBindingSource1.DataSource = typeof(MegaDesk_2.FileService);
-            // 
-            // quotesListBindingSource
-            // 
-            this.quotesListBindingSource.DataSource = typeof(MegaDesk_2.QuotesList);
-            // 
-            // fileServiceBindingSource2
-            // 
-            this.fileServiceBindingSource2.DataSource = typeof(MegaDesk_2.FileService);
             // 
             // quoteslistDataGridViewTextBoxColumn
             // 
@@ -112,9 +94,6 @@
             this.Load += new System.EventHandler(this.ViewAllQuotes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quotesListBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileServiceBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,11 +102,8 @@
         #endregion
 
         private System.Windows.Forms.Button menuButton;
-        private System.Windows.Forms.DataGridView dataGridView;
-        private System.Windows.Forms.BindingSource fileServiceBindingSource;
+        public System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn quoteslistDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource fileServiceBindingSource2;
-        private System.Windows.Forms.BindingSource fileServiceBindingSource1;
-        private System.Windows.Forms.BindingSource quotesListBindingSource;
+        private System.Windows.Forms.BindingSource fileServiceBindingSource;
     }
 }

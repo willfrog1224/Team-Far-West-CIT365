@@ -124,7 +124,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QuotesList.datasource" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

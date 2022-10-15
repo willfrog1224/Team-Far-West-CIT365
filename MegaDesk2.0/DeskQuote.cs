@@ -78,7 +78,7 @@ namespace MegaDesk_2
             }
             else
             {
-                string rushCost = "";
+                string rushCost = "0";
                 GetRushOrder();
                 switch (ProductionDays)
                 {
