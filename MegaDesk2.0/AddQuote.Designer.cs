@@ -205,8 +205,9 @@
             // 
             // ComboBoxMaterials
             // 
-            this.ComboBoxMaterials.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
-            this.ComboBoxMaterials.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBoxMaterials.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.ComboBoxMaterials.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.ComboBoxMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxMaterials.FormattingEnabled = true;
             this.ComboBoxMaterials.Location = new System.Drawing.Point(484, 223);
             this.ComboBoxMaterials.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);

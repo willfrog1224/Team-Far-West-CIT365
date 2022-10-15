@@ -16,17 +16,22 @@ namespace MegaDesk_2
     {
         private static QuotesList _quotesList;
         private const string JsonQuotesFile = @"Data\quotes.json";
+        public QuotesList Quoteslist {get => _quotesList; set => _quotesList = value; }
+
 
         public FileService()
         {
             _quotesList = new QuotesList();
         }
-        public void AddQuoteToFile(DeskQuote deskQuote)
+
+
+    public void AddQuoteToFile(DeskQuote deskQuote)
         {
             ReadFromFile();
             AddQuoteToList(deskQuote);
             SaveQuotesListToFile();
         }
+
         public void ReadFromFile()
         {
             if (File.Exists(JsonQuotesFile))
@@ -49,10 +54,12 @@ namespace MegaDesk_2
                 Console.WriteLine("File not found");
             }
         }
+
         public void AddQuoteToList(DeskQuote deskQuote)
         {
             _quotesList.DeskQuotes.Add(deskQuote);
         }
+
         public void SaveQuotesListToFile()
         {
             if (File.Exists(JsonQuotesFile))
@@ -72,11 +79,42 @@ namespace MegaDesk_2
                 Console.WriteLine("File not found");
             }
         }
-        public QuotesList Quoteslist { get => _quotesList; set => _quotesList = value; }
 
+        public DeskQuote ReadQuotesAndLoopThrough(string searchMaterial)
+        {
+            ReadFromFile();
+            List<DeskQuote> quotes = _quotesList.DeskQuotes;
+            string result = "";
+            for (int i = 0; i < quotes.Count; i++)
+            {
+                if (quotes[i].DesktopMaterial == searchMaterial)
+                {
+                    
+                    
+                    return quotes[i];
+                }
+                
+            }
 
+            return null;
 
+            //foreach (DeskQuote deskquote in _quotesList.DeskQuotes)
+            //{
+            //    deskquote.DesktopMaterial.IndexOf(searchMaterial);
+            //    if (deskquote.DesktopMaterial == searchMaterial)
+            //}
+            //var materialMatch = _quotesList.DeskQuotes.Where(m => m.DesktopMaterial.Equals(searchMaterial));
+            //foreach (DeskQuote deskQuote in _quotesMaterialMatch.DeskQuotes)
+            //{
+            //    // _quotesMaterialMatch.DeskQuotes.Text = deskQuote.ToString();
+            //    SearchQuotes.searchResult = deskQuote.ToString();
+            //}
 
+            //// display in searchQuote that there aew no order matches for that material
+            //SearchQuotes.searchResult = ($"There are currently no orders with {searchMaterial}");
 
+        }
+        }
+    
     }
-}
+

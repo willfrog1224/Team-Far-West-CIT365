@@ -19,7 +19,7 @@ namespace MegaDesk_2
         {
             InitializeComponent();
             mainMenu1 = mainMenu;
-            ComboBoxMaterials.DataSource = Enum.GetNames(typeof(DesktopMaterial));
+            ComboBoxMaterialsSearch.DataSource = Enum.GetNames(typeof(DesktopMaterial));
         }
 
         private void menuButton_Click(object sender, EventArgs e)
@@ -35,11 +35,29 @@ namespace MegaDesk_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // search through all quotes in JSON file for matching material, 
-            // if matching then display
-            // if not a match, ignore
-            // if no matches then diplay message that there are no matches for material
-
+            
+            FileService fileService = new FileService();
+            var material = ComboBoxMaterialsSearch.Text;
+            DeskQuote deskQuote = fileService.ReadQuotesAndLoopThrough(material);
+            if (deskQuote != null)
+            {
+                label5.Visible = false;
+                groupBox1.Visible = true;
+                label2.Text = "$" + Convert.ToString(deskQuote.CalculatePrice());
+                nameText.Text = deskQuote.CustomerName;
+                dateText.Text = deskQuote.QuoteDate;
+                widthText.Text = Convert.ToString(deskQuote.Width);
+                depthText.Text = Convert.ToString(deskQuote.Depth);
+                materialText.Text = deskQuote.DesktopMaterial;
+                drawersText.Text = Convert.ToString(deskQuote.Drawers);
+                ProductionDaysText.Text = Convert.ToString(deskQuote.ProductionDays);
+            }
+            else
+            {
+                groupBox1.Visible = false;
+                label5.Visible = true;
+                label5.Text = $"There are currently no orders with {material}";
+            }
         }
     }
 }
