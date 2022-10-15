@@ -17,6 +17,7 @@ namespace MegaDesk_2
         private int _productionDays;
         private Desk _desk;
         private string[,] rushArr = new string[3,3];
+        private int _price;
 
         public DeskQuote(int productionDays, string customerName, int width, int depth, int drawers, string desktopMaterial)
         {
@@ -29,21 +30,22 @@ namespace MegaDesk_2
             Depth = _desk.Depth;
             Drawers = _desk.Drawers;
             DesktopMaterial = _desk.DesktopMaterial;
+            Price = CalculatePrice();
+           
         }
 
         public int Width { get => _desk.Width; set => _desk.Width = value; }
         public int Depth { get => _desk.Depth; set => _desk.Depth = value; }
         public int Drawers{ get => _desk.Drawers; set => _desk.Drawers = value; }
         public string DesktopMaterial { get => _desk.DesktopMaterial; set => _desk.DesktopMaterial = value; }
-        public int ProductionDays { get => _productionDays;}
+        public int ProductionDays { get => _productionDays; }
         public string CustomerName { get => _customerName; }
         public string QuoteDate { get => _quoteDate; }
+        public int Price { get => _price; set => _price = value; }
 
 
-        
-        public double CalculatePrice()
-        {
-            int basePrice = 200;
+        public int CalculatePrice()
+        { 
             int surfaceArea = _desk.Width * _desk.Depth;
             int addedPrice = 0;
             if (surfaceArea > 1000)
@@ -72,10 +74,10 @@ namespace MegaDesk_2
                     break;
             }
 
-            double price = 0;
+            int price = 0;
             if (ProductionDays == 0)
             {
-                price = basePrice + drawerTotal + addedPrice + materialCost;
+                price = 200 + drawerTotal + addedPrice + materialCost;
             }
             else
             {
@@ -128,7 +130,7 @@ namespace MegaDesk_2
                         break;
 
                 }
-                price = basePrice + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
+                price = 200 + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
             }
 
             return price;

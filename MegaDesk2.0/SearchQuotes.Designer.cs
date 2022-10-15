@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchQuotes));
             this.menuButton = new System.Windows.Forms.Button();
             this.ComboBoxMaterialsSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,11 +71,6 @@
             // 
             // ComboBoxMaterialsSearch
             // 
-            //this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            //this.ComboBoxMaterialsSearch.Location = new System.Drawing.Point(305, 64);
-            //this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
-            //this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(276, 37);
-            //this.ComboBoxMaterialsSearch.TabIndex = 25;
             this.ComboBoxMaterialsSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ComboBoxMaterialsSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,6 +80,7 @@
             this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
             this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(180, 37);
             this.ComboBoxMaterialsSearch.TabIndex = 20;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -340,7 +335,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(166, 135);
+            this.label5.Location = new System.Drawing.Point(117, 133);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 37);
             this.label5.TabIndex = 24;

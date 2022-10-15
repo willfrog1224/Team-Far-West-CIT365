@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,13 +15,11 @@ namespace MegaDesk_2
     public partial class DisplayQuote : Form
     {
         private MainMenu mainMenu1;
-        public static double Price;
         public DisplayQuote(MainMenu mainMenu, DeskQuote deskQuote)
         {
             InitializeComponent();
             mainMenu1 = mainMenu;
-            Price = deskQuote.CalculatePrice();
-            priceText.Text = "$" + Convert.ToString(Price);
+            priceText.Text = "$" + Convert.ToString(deskQuote.Price);
             dateText.Text = deskQuote.QuoteDate;
             nameText.Text = deskQuote.CustomerName;
             widthText.Text = Convert.ToString(deskQuote.Width ) + " in.";
