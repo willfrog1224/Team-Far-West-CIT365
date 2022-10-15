@@ -29,5 +29,20 @@ namespace MegaDesk_2
         {
             Application.Exit();
         }
+
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void ViewAllQuotes_Load(object sender, EventArgs e)
+        {
+            FileService fileService = new FileService();
+            //fileService.ReadFromFile();
+            dataGridView.DataSource = fileService.Quoteslist;
+        }
+
+
     }
 }
