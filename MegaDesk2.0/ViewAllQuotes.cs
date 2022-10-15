@@ -50,13 +50,15 @@ namespace MegaDesk_2
             newTable.Columns.Add("Name", typeof(string));
             newTable.Columns.Add("Material", typeof(string));
             newTable.Columns.Add("Width", typeof(string));
-            newTable.Columns.Add("Depth", typeof(string));    
+            newTable.Columns.Add("Depth", typeof(string));
+            newTable.Columns.Add("Drawers", typeof(string));
             newTable.Columns.Add("Production", typeof(string));
-            
+            newTable.Columns.Add("Price", typeof(string));
+
 
             foreach (var row in table)
             {
-                newTable.Rows.Add(row.QuoteDate, row.CustomerName, row.DesktopMaterial, row.Width, row.Depth, row.ProductionDays);
+                newTable.Rows.Add(row.QuoteDate, row.CustomerName, row.DesktopMaterial, row.Width, row.Depth, row.Drawers, row.ProductionDays, row.Price);
             }
             return newTable;
         }

@@ -74,11 +74,11 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(205)))), ((int)(((byte)(207)))));
-            this.dataGridView.Location = new System.Drawing.Point(22, 94);
+            this.dataGridView.Location = new System.Drawing.Point(29, 94);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView.RowTemplate.Height = 18;
-            this.dataGridView.Size = new System.Drawing.Size(644, 319);
+            this.dataGridView.Size = new System.Drawing.Size(845, 319);
             this.dataGridView.TabIndex = 21;
             // 
             // label1
@@ -86,7 +86,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(175, 36);
+            this.label1.Location = new System.Drawing.Point(311, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(312, 45);
             this.label1.TabIndex = 22;
@@ -98,7 +98,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(693, 535);
+            this.ClientSize = new System.Drawing.Size(907, 535);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.menuButton);
