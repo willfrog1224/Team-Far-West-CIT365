@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,5 +72,11 @@ namespace MegaDesk_2
                 Console.WriteLine("File not found");
             }
         }
+        public QuotesList Quoteslist { get => _quotesList; set => _quotesList = value; }
+
+
+
+
+
     }
 }
