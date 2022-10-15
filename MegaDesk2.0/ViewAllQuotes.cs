@@ -34,33 +34,15 @@ namespace MegaDesk_2
 
         private void ViewAllQuotes_Load(object sender, EventArgs e)
         {
-            DataTable datatable = new DataTable();
-
-            dataGridView.DataSource = datatable;
-
-
-        }
-        public DataTable DgridView()
-        {
-            StreamReader sr = new StreamReader(@"Data\quotes.json");
-            string json = sr.ReadToEnd();
-            dynamic table = JsonConvert.DeserializeObject(json);
-            DataTable newTable = new DataTable();
-            newTable.Columns.Add("Width", typeof(string));
-            newTable.Columns.Add("Depth", typeof(string));
-            newTable.Columns.Add("Drawers", typeof(string));
-            newTable.Columns.Add("DesktopMaterial", typeof(string));
-            newTable.Columns.Add("userID", typeof(string));
-            newTable.Columns.Add("ProductionDays", typeof(string));
-            newTable.Columns.Add("voucher_number", typeof(string));
-
-            foreach (var row in table)
+            QuotesList quotes = new QuotesList();
+            FileService fileService = new FileService();
+            DataGridView1.DataSource = fileService.getQuotesArray();
+            for (int i = 0; i < DataGridView1.ColumnCount; i++)
             {
-                newTable.Rows.Add(row.Width, row.Depth, row.Drawers, row.DesktopMaterial, row.ProductionDays, row.CustomerName, row.QuoteDate);
+                DataGridView1.AutoResizeColumn(i);
             }
-            return newTable;
-        }
 
+        }
     } 
     
 }

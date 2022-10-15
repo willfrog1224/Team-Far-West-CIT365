@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewAllQuotes));
             this.menuButton = new System.Windows.Forms.Button();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.DataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuButton
@@ -40,40 +40,42 @@
             this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.menuButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.menuButton.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuButton.Location = new System.Drawing.Point(41, 438);
-            this.menuButton.Margin = new System.Windows.Forms.Padding(2);
+            this.menuButton.Location = new System.Drawing.Point(55, 539);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(136, 45);
+            this.menuButton.Size = new System.Drawing.Size(194, 55);
             this.menuButton.TabIndex = 20;
             this.menuButton.Text = "Main Menu";
             this.menuButton.UseVisualStyleBackColor = false;
             this.menuButton.Click += new System.EventHandler(this.MenuButton_Click);
             // 
-            // dataGridView
+            // DataGridView1
             // 
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(23, 28);
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(644, 392);
-            this.dataGridView.TabIndex = 21;
+            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView1.Location = new System.Drawing.Point(55, 113);
+            this.DataGridView1.Name = "DataGridView1";
+            this.DataGridView1.RowHeadersWidth = 62;
+            this.DataGridView1.RowTemplate.Height = 24;
+            this.DataGridView1.Size = new System.Drawing.Size(1124, 324);
+            this.DataGridView1.TabIndex = 21;
             // 
             // ViewAllQuotes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(693, 535);
-            this.Controls.Add(this.dataGridView);
+            this.ClientSize = new System.Drawing.Size(1241, 633);
+            this.Controls.Add(this.DataGridView1);
             this.Controls.Add(this.menuButton);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ViewAllQuotes";
             this.Text = "ViewAllQuotes";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewAllQuotes_FormClosing);
             this.Load += new System.EventHandler(this.ViewAllQuotes_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -82,6 +84,6 @@
         #endregion
 
         private System.Windows.Forms.Button menuButton;
-        private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.DataGridView DataGridView1;
     }
 }

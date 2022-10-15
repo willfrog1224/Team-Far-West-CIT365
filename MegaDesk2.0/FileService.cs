@@ -80,6 +80,20 @@ namespace MegaDesk_2
             }
         }
 
+        public DeskQuote[] getQuotesArray()
+        {
+            ReadFromFile();
+            List<DeskQuote> quotes = _quotesList.DeskQuotes;
+            DeskQuote[] arr = new DeskQuote[quotes.Count];
+            for (int i = 0; i < quotes.Count; i++)
+            {
+                arr[i] = quotes[i];
+            }
+
+            return arr;
+        }
+
+
         public DeskQuote ReadQuotesAndLoopThrough(string searchMaterial)
         {
             ReadFromFile();
@@ -98,20 +112,6 @@ namespace MegaDesk_2
 
             return null;
 
-            //foreach (DeskQuote deskquote in _quotesList.DeskQuotes)
-            //{
-            //    deskquote.DesktopMaterial.IndexOf(searchMaterial);
-            //    if (deskquote.DesktopMaterial == searchMaterial)
-            //}
-            //var materialMatch = _quotesList.DeskQuotes.Where(m => m.DesktopMaterial.Equals(searchMaterial));
-            //foreach (DeskQuote deskQuote in _quotesMaterialMatch.DeskQuotes)
-            //{
-            //    // _quotesMaterialMatch.DeskQuotes.Text = deskQuote.ToString();
-            //    SearchQuotes.searchResult = deskQuote.ToString();
-            //}
-
-            //// display in searchQuote that there aew no order matches for that material
-            //SearchQuotes.searchResult = ($"There are currently no orders with {searchMaterial}");
 
         }
         }
