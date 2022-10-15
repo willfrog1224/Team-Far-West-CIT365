@@ -36,7 +36,7 @@ namespace MegaDesk_2
         {
             DataTable datatable = new DataTable();
 
-            dataGridView.DataSource = datatable;
+            dataGridView.DataSource = datatable;         
 
 
         }
