@@ -47,12 +47,13 @@
             this.menuButton = new System.Windows.Forms.Button();
             this.dateLabel = new System.Windows.Forms.Label();
             this.dateText = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // widthLabel
             // 
             this.widthLabel.AutoSize = true;
-            this.widthLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.widthLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.widthLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.widthLabel.Location = new System.Drawing.Point(52, 192);
             this.widthLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -65,7 +66,7 @@
             // depthLabel
             // 
             this.depthLabel.AutoSize = true;
-            this.depthLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.depthLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.depthLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.depthLabel.Location = new System.Drawing.Point(52, 238);
             this.depthLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -78,7 +79,7 @@
             // desktopMaterialLabel
             // 
             this.desktopMaterialLabel.AutoSize = true;
-            this.desktopMaterialLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.desktopMaterialLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.desktopMaterialLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.desktopMaterialLabel.Location = new System.Drawing.Point(322, 192);
             this.desktopMaterialLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -91,7 +92,7 @@
             // drawerNumberLabel
             // 
             this.drawerNumberLabel.AutoSize = true;
-            this.drawerNumberLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.drawerNumberLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.drawerNumberLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drawerNumberLabel.Location = new System.Drawing.Point(300, 238);
             this.drawerNumberLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -104,7 +105,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.nameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.nameLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameLabel.Location = new System.Drawing.Point(52, 128);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -194,7 +195,7 @@
             // ProductionDaysLabel
             // 
             this.ProductionDaysLabel.AutoSize = true;
-            this.ProductionDaysLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.ProductionDaysLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.ProductionDaysLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductionDaysLabel.Location = new System.Drawing.Point(52, 327);
             this.ProductionDaysLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -220,7 +221,7 @@
             // priceLabel
             // 
             this.priceLabel.AutoSize = true;
-            this.priceLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
+            this.priceLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.priceLabel.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel.Location = new System.Drawing.Point(424, 387);
             this.priceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -249,7 +250,7 @@
             this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.menuButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.menuButton.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuButton.Location = new System.Drawing.Point(55, 435);
+            this.menuButton.Location = new System.Drawing.Point(33, 447);
             this.menuButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(142, 51);
@@ -274,7 +275,7 @@
             // dateText
             // 
             this.dateText.AutoSize = true;
-            this.dateText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
+            this.dateText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
             this.dateText.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateText.ForeColor = System.Drawing.SystemColors.ControlText;
             this.dateText.Location = new System.Drawing.Point(495, 56);
@@ -283,6 +284,16 @@
             this.dateText.Size = new System.Drawing.Size(69, 23);
             this.dateText.TabIndex = 26;
             this.dateText.Text = "label1";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(33, 102);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(627, 327);
+            this.textBox1.TabIndex = 27;
             // 
             // DisplayQuote
             // 
@@ -309,6 +320,7 @@
             this.Controls.Add(this.desktopMaterialLabel);
             this.Controls.Add(this.depthLabel);
             this.Controls.Add(this.widthLabel);
+            this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -340,5 +352,6 @@
         private System.Windows.Forms.Button menuButton;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label dateText;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
