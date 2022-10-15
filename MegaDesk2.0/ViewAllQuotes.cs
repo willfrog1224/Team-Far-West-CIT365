@@ -34,7 +34,7 @@ namespace MegaDesk_2
 
         private void ViewAllQuotes_Load(object sender, EventArgs e)
         {
-            DataTable datatable = new DataTable();
+            DataTable datatable = DgridView();
 
             dataGridView.DataSource = datatable;         
 
