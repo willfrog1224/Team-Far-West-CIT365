@@ -42,7 +42,8 @@ namespace MegaDesk_2
 
         
         public double CalculatePrice()
-        { 
+        {
+            int basePrice = 200;
             int surfaceArea = _desk.Width * _desk.Depth;
             int addedPrice = 0;
             if (surfaceArea > 1000)
@@ -74,7 +75,7 @@ namespace MegaDesk_2
             double price = 0;
             if (ProductionDays == 0)
             {
-                price = 200 + drawerTotal + addedPrice + materialCost;
+                price = basePrice + drawerTotal + addedPrice + materialCost;
             }
             else
             {
@@ -127,7 +128,7 @@ namespace MegaDesk_2
                         break;
 
                 }
-                price = 200 + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
+                price = basePrice + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
             }
 
             return price;
