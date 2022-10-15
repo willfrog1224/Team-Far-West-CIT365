@@ -77,7 +77,7 @@ namespace MegaDesk_2
             int price = 0;
             if (ProductionDays == 0)
             {
-                price = basePrice + drawerTotal + addedPrice + materialCost;
+                price = 200 + drawerTotal + addedPrice + materialCost;
             }
             else
             {
@@ -130,7 +130,7 @@ namespace MegaDesk_2
                         break;
 
                 }
-                price = basePrice + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
+                price = 200 + drawerTotal + addedPrice + materialCost + int.Parse(rushCost);
             }
 
             return price;
