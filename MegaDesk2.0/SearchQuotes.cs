@@ -19,7 +19,7 @@ namespace MegaDesk_2
         {
             InitializeComponent();
             mainMenu1 = mainMenu;
-            ComboBoxMaterials.DataSource = Enum.GetNames(typeof(DesktopMaterial));
+            ComboBoxMaterialsSearch.DataSource = Enum.GetNames(typeof(DesktopMaterial));
         }
 
         private void menuButton_Click(object sender, EventArgs e)

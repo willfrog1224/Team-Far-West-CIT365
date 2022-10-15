@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.menuButton = new System.Windows.Forms.Button();
-            this.ComboBoxMaterials = new System.Windows.Forms.ComboBox();
+            this.ComboBoxMaterialsSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dateText = new System.Windows.Forms.Label();
@@ -52,6 +51,7 @@
             this.desktopMaterialLabel = new System.Windows.Forms.Label();
             this.depthLabel = new System.Windows.Forms.Label();
             this.widthLabel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,8 +68,13 @@
             this.menuButton.UseVisualStyleBackColor = true;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
-            // ComboBoxMaterials
+            // ComboBoxMaterialsSearch
             // 
+            //this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.ComboBoxMaterialsSearch.Location = new System.Drawing.Point(305, 64);
+            //this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
+            //this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(276, 37);
+            //this.ComboBoxMaterialsSearch.TabIndex = 25;
             this.ComboBoxMaterialsSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ComboBoxMaterialsSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,7 +84,6 @@
             this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
             this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(180, 37);
             this.ComboBoxMaterialsSearch.TabIndex = 20;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -130,18 +134,6 @@
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(166, 135);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 37);
-            this.label5.TabIndex = 24;
-            this.label5.Text = "label4";
-            this.label5.Visible = false;
             // 
             // label2
             // 
@@ -341,6 +333,18 @@
             this.widthLabel.Text = "Width:";
             this.widthLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(166, 135);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(102, 37);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "label4";
+            this.label5.Visible = false;
+            // 
             // SearchQuotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -350,7 +354,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ComboBoxMaterials);
+            this.Controls.Add(this.ComboBoxMaterialsSearch);
             this.Controls.Add(this.menuButton);
             this.Name = "SearchQuotes";
             this.Text = "SearchQuotes";
@@ -365,7 +369,7 @@
         #endregion
 
         private System.Windows.Forms.Button menuButton;
-        private System.Windows.Forms.ComboBox ComboBoxMaterials;
+        private System.Windows.Forms.ComboBox ComboBoxMaterialsSearch;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
