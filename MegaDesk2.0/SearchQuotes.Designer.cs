@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchQuotes));
             this.menuButton = new System.Windows.Forms.Button();
             this.ComboBoxMaterialsSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,6 +59,7 @@
             // menuButton
             // 
             this.menuButton.AutoSize = true;
+            this.menuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.menuButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.menuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuButton.Location = new System.Drawing.Point(305, 656);
@@ -65,7 +67,7 @@
             this.menuButton.Size = new System.Drawing.Size(202, 69);
             this.menuButton.TabIndex = 19;
             this.menuButton.Text = "Main Menu";
-            this.menuButton.UseVisualStyleBackColor = true;
+            this.menuButton.UseVisualStyleBackColor = false;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
             // ComboBoxMaterialsSearch
@@ -105,7 +107,7 @@
             this.button1.Size = new System.Drawing.Size(128, 46);
             this.button1.TabIndex = 22;
             this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
