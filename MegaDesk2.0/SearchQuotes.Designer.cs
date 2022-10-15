@@ -63,7 +63,7 @@
             this.menuButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.menuButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight;
             this.menuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuButton.Location = new System.Drawing.Point(34, 427);
+            this.menuButton.Location = new System.Drawing.Point(34, 412);
             this.menuButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(135, 45);
@@ -76,9 +76,10 @@
             // 
             this.ComboBoxMaterialsSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ComboBoxMaterialsSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.ComboBoxMaterialsSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(249)))), ((int)(((byte)(245)))));
             this.ComboBoxMaterialsSearch.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxMaterialsSearch.FormattingEnabled = true;
-            this.ComboBoxMaterialsSearch.Location = new System.Drawing.Point(280, 27);
+            this.ComboBoxMaterialsSearch.Location = new System.Drawing.Point(284, 39);
             this.ComboBoxMaterialsSearch.Name = "ComboBoxMaterialsSearch";
             this.ComboBoxMaterialsSearch.Size = new System.Drawing.Size(121, 29);
             this.ComboBoxMaterialsSearch.TabIndex = 20;
@@ -88,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 30);
+            this.label1.Location = new System.Drawing.Point(30, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 21);
             this.label1.TabIndex = 21;
@@ -98,9 +99,9 @@
             // 
             this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(442, 27);
+            this.button1.Location = new System.Drawing.Point(445, 35);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 31);
+            this.button1.Size = new System.Drawing.Size(90, 35);
             this.button1.TabIndex = 22;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
@@ -126,7 +127,7 @@
             this.groupBox1.Controls.Add(this.desktopMaterialLabel);
             this.groupBox1.Controls.Add(this.depthLabel);
             this.groupBox1.Controls.Add(this.widthLabel);
-            this.groupBox1.Location = new System.Drawing.Point(91, 112);
+            this.groupBox1.Location = new System.Drawing.Point(91, 104);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -139,8 +140,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(261, 39);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(269, 15);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 21);
@@ -151,7 +152,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(45, 39);
+            this.label3.Location = new System.Drawing.Point(53, 15);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 21);
@@ -163,8 +164,8 @@
             // 
             this.dateText.AutoSize = true;
             this.dateText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.dateText.Location = new System.Drawing.Point(261, 102);
+            this.dateText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dateText.Location = new System.Drawing.Point(269, 78);
             this.dateText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dateText.Name = "dateText";
             this.dateText.Size = new System.Drawing.Size(67, 21);
@@ -175,7 +176,7 @@
             // 
             this.dateLabel.AutoSize = true;
             this.dateLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateLabel.Location = new System.Drawing.Point(46, 104);
+            this.dateLabel.Location = new System.Drawing.Point(54, 80);
             this.dateLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(59, 21);
@@ -211,8 +212,8 @@
             // 
             this.ProductionDaysText.AutoSize = true;
             this.ProductionDaysText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductionDaysText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.ProductionDaysText.Location = new System.Drawing.Point(261, 264);
+            this.ProductionDaysText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ProductionDaysText.Location = new System.Drawing.Point(269, 240);
             this.ProductionDaysText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProductionDaysText.Name = "ProductionDaysText";
             this.ProductionDaysText.Size = new System.Drawing.Size(67, 21);
@@ -223,7 +224,7 @@
             // 
             this.ProductionDaysLabel.AutoSize = true;
             this.ProductionDaysLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductionDaysLabel.Location = new System.Drawing.Point(46, 264);
+            this.ProductionDaysLabel.Location = new System.Drawing.Point(54, 240);
             this.ProductionDaysLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProductionDaysLabel.Name = "ProductionDaysLabel";
             this.ProductionDaysLabel.Size = new System.Drawing.Size(171, 21);
@@ -235,8 +236,8 @@
             // 
             this.drawersText.AutoSize = true;
             this.drawersText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.drawersText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.drawersText.Location = new System.Drawing.Point(261, 232);
+            this.drawersText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.drawersText.Location = new System.Drawing.Point(269, 208);
             this.drawersText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.drawersText.Name = "drawersText";
             this.drawersText.Size = new System.Drawing.Size(67, 21);
@@ -247,8 +248,8 @@
             // 
             this.materialText.AutoSize = true;
             this.materialText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.materialText.Location = new System.Drawing.Point(261, 199);
+            this.materialText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.materialText.Location = new System.Drawing.Point(269, 175);
             this.materialText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialText.Name = "materialText";
             this.materialText.Size = new System.Drawing.Size(67, 21);
@@ -259,8 +260,8 @@
             // 
             this.depthText.AutoSize = true;
             this.depthText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depthText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.depthText.Location = new System.Drawing.Point(261, 167);
+            this.depthText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.depthText.Location = new System.Drawing.Point(269, 143);
             this.depthText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.depthText.Name = "depthText";
             this.depthText.Size = new System.Drawing.Size(67, 21);
@@ -271,8 +272,8 @@
             // 
             this.widthText.AutoSize = true;
             this.widthText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widthText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.widthText.Location = new System.Drawing.Point(261, 134);
+            this.widthText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.widthText.Location = new System.Drawing.Point(269, 110);
             this.widthText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.widthText.Name = "widthText";
             this.widthText.Size = new System.Drawing.Size(67, 21);
@@ -283,8 +284,8 @@
             // 
             this.nameText.AutoSize = true;
             this.nameText.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameText.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.nameText.Location = new System.Drawing.Point(261, 67);
+            this.nameText.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nameText.Location = new System.Drawing.Point(269, 43);
             this.nameText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nameText.Name = "nameText";
             this.nameText.Size = new System.Drawing.Size(67, 21);
@@ -295,7 +296,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(46, 72);
+            this.nameLabel.Location = new System.Drawing.Point(54, 48);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(166, 21);
@@ -307,7 +308,7 @@
             // 
             this.drawerNumberLabel.AutoSize = true;
             this.drawerNumberLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.drawerNumberLabel.Location = new System.Drawing.Point(46, 232);
+            this.drawerNumberLabel.Location = new System.Drawing.Point(54, 208);
             this.drawerNumberLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.drawerNumberLabel.Name = "drawerNumberLabel";
             this.drawerNumberLabel.Size = new System.Drawing.Size(197, 21);
@@ -319,7 +320,7 @@
             // 
             this.desktopMaterialLabel.AutoSize = true;
             this.desktopMaterialLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.desktopMaterialLabel.Location = new System.Drawing.Point(46, 199);
+            this.desktopMaterialLabel.Location = new System.Drawing.Point(54, 175);
             this.desktopMaterialLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.desktopMaterialLabel.Name = "desktopMaterialLabel";
             this.desktopMaterialLabel.Size = new System.Drawing.Size(175, 21);
@@ -331,7 +332,7 @@
             // 
             this.depthLabel.AutoSize = true;
             this.depthLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depthLabel.Location = new System.Drawing.Point(46, 167);
+            this.depthLabel.Location = new System.Drawing.Point(54, 143);
             this.depthLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.depthLabel.Name = "depthLabel";
             this.depthLabel.Size = new System.Drawing.Size(73, 21);
@@ -343,7 +344,7 @@
             // 
             this.widthLabel.AutoSize = true;
             this.widthLabel.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widthLabel.Location = new System.Drawing.Point(46, 134);
+            this.widthLabel.Location = new System.Drawing.Point(54, 110);
             this.widthLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.widthLabel.Name = "widthLabel";
             this.widthLabel.Size = new System.Drawing.Size(72, 21);
@@ -355,12 +356,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(189)))), ((int)(((byte)(192)))));
-            this.label5.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(245, 79);
+            this.label5.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
+            this.label5.Location = new System.Drawing.Point(88, 74);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 21);
+            this.label5.Size = new System.Drawing.Size(47, 18);
             this.label5.TabIndex = 24;
             this.label5.Text = "label4";
             this.label5.Visible = false;
@@ -379,6 +380,8 @@
             this.Controls.Add(this.ComboBoxMaterialsSearch);
             this.Controls.Add(this.menuButton);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SearchQuotes";
             this.Text = "SearchQuotes";

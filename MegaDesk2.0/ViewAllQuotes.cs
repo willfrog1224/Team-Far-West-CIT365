@@ -46,17 +46,17 @@ namespace MegaDesk_2
             string json = sr.ReadToEnd();
             dynamic table = JsonConvert.DeserializeObject(json);
             DataTable newTable = new DataTable();
+            newTable.Columns.Add("Date", typeof(string));
+            newTable.Columns.Add("Name", typeof(string));
+            newTable.Columns.Add("Material", typeof(string));
             newTable.Columns.Add("Width", typeof(string));
-            newTable.Columns.Add("Depth", typeof(string));
-            newTable.Columns.Add("Drawers", typeof(string));
-            newTable.Columns.Add("DesktopMaterial", typeof(string));
-            newTable.Columns.Add("userID", typeof(string));
-            newTable.Columns.Add("ProductionDays", typeof(string));
-            newTable.Columns.Add("voucher_number", typeof(string));
+            newTable.Columns.Add("Depth", typeof(string));    
+            newTable.Columns.Add("Production", typeof(string));
+            
 
             foreach (var row in table)
             {
-                newTable.Rows.Add(row.Width, row.Depth, row.Drawers, row.DesktopMaterial, row.ProductionDays, row.CustomerName, row.QuoteDate);
+                newTable.Rows.Add(row.QuoteDate, row.CustomerName, row.DesktopMaterial, row.Width, row.Depth, row.ProductionDays);
             }
             return newTable;
         }
